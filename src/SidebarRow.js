@@ -4,7 +4,7 @@ import './SidebarRow.css'
 
 function SidebarRow({ src, Icon, title }) {
     return (
-        <div>
+        <div className="sidebarRow">
             {src && <Avatar src={src} />}
             {Icon && <Icon />}
             <h4>{title}</h4>

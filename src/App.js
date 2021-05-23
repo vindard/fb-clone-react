@@ -9,7 +9,12 @@ function App() {
       <Header />
 
       <div className="app_body">
-        <Sidebar />
+        <Sidebar user={
+          {
+            photoURL: "https://avatars.githubusercontent.com/u/17693119?v=4",
+            displayName: "Arvin R"
+          }
+        }/>
         {/* Feed */}
         {/* Widgets */}
       </div>
