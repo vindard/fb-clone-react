@@ -9,6 +9,11 @@
     border-radius: 10px;
     margin-right: 10px;
     cursor: pointer;
+    transition: transform 100ms ease-in;
+}
+
+.story:hover {
+    transform: scale(1.07);
 }
 
 .story__avatar {
