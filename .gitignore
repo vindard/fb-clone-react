@@ -26,3 +26,6 @@ yarn-error.log*
 
 # nodenv
 .node-version
+
+# firebase
+*firebase*
