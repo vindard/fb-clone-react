@@ -22,7 +22,7 @@ function Feed() {
                 image=""
                 username="lopp"
                 timestamp="This is a timestamp"
-                message="WOW this works!"
+                message="Not impressed..."
             />
             <Post />
         </div>
