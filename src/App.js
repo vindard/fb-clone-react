@@ -20,12 +20,13 @@ function App() {
           <Header />
 
           <div className="app__body">
-            <Sidebar user={
+            {/* <Sidebar user={
               {
                 photoURL: "https://avatars.githubusercontent.com/u/17693119?v=4",
                 displayName: "Arvin R"
               }
-            }/>
+            }/> */}
+            <Sidebar />
             <Feed />
             <Widget />
           </div>
